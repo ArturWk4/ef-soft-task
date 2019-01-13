@@ -1,1 +1,2 @@
-***Introductory task for EffectiveSoft
+Introductory task for EffectiveSoft
+---
