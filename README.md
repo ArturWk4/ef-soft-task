@@ -1,2 +1,2 @@
 Introductory task for EffectiveSoft
----
+===================================
