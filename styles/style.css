@@ -1,0 +1,36 @@
+.bordered {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+button {
+    margin: 10px auto;
+}
+img {
+    margin: 10px;
+    width: 160px;
+    height: 160px;
+    border-radius: 25px;
+}
+
+input[type='file'] {
+    color: transparent;
+}
+
+#drop-area {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    background-color: #C5CDD3;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    width: 100%;
+}
+
+.highlight {
+    border: 5px dashed black;
+}
+

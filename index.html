@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 bordered">
+                <button type="button" class="btn btn-outline-dark col-lg-12" id="show">Show</button>
+                <button type="button" class="btn btn-outline-dark col-lg-12" id="load">Load</button>
+            </div>
+            <div class="col-lg-6 bordered" id="file-loader" style="display: none;">
+                <div id="drop-area" class="bordered">
+                    <input type="file" id="file-area" style="display: none" accept="image/*"/>
+                    <h3 >Drop file here</h3>
+                </div>
+
+                <button type="button" class="btn btn-outline-dark col-lg-12" id="btn-choose-file">
+                    <input type="file" id="file-input" style="display: none" accept="image/*"/>
+                    <label for="file-input">Select file</label>
+                </button>
+            </div>
+        </div>
+        <div class="row bordered" id="gallery" style="display: none"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
