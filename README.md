@@ -8,10 +8,10 @@ Create three components, implement of loading files from directories by two ways
 
 Description:
 -----------------------------------
-In first we have two buttons **Load** and **Show**;\n
-If we click the load-button we get other section;
-If show-button we get the alert that gallery is empty;
-If we load images we can see our images when click show-button.
+* In first section we have two buttons **Load** and **Show**;
+* If we click the load-button we get other section;
+* If show-button we get the alert that gallery is empty;
+* If we load images we can see our images when click show-button.
 
 How to use:
 -----------------------------------
