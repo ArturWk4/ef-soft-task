@@ -15,5 +15,5 @@ If we load images we can see our images when click show-button.
 
 How to use:
 -----------------------------------
-1. Clone repository <git@github.com:ArturWk4/ef-soft-task.git>
+1. Clone repository <https://github.com/ArturWk4/ef-soft-task>
 2. Open **index.html** in your browser
