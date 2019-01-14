@@ -7,7 +7,7 @@ Create three components, implement of loading files from directories by two ways
 2. By drag-and-drop
 <hr>
 Description:
------------
+-----
 In first we have two buttons **Load** and **Show**;
 If we click the load-button we get other section;
 If show-button we get the alert that gallery is empty;
