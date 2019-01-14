@@ -1,8 +1,8 @@
 Introductory task for EffectiveSoft
 ===================================
 Task:
------
-Create three components, implement of loading files from directories by two ways^
+-----------------------------------
+Create three components, implement of loading files from directories by two ways
 1. By button
 2. By drag-and-drop
 
@@ -15,5 +15,5 @@ If we load images we can see our images when click show-button.
 
 How to use:
 -----------------------------------
-1. Clone repository git@github.com:ArturWk4/ef-soft-task.git
+1. Clone repository <git@github.com:ArturWk4/ef-soft-task.git>
 2. Open **index.html** in your browser
