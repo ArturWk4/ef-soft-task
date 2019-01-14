@@ -13,8 +13,8 @@ function createImage(src) {
 function addImg(input) {
     if ( input.files && input.files[0] ) {
         let reader = new FileReader();
-        reader.onload = function(e) {
-            let img = createImage(e.target.result);
+        reader.onload = function() {
+            let img = createImage(reader.result);
             gallery.appendChild(img);
             input.src = img.src;
         };
