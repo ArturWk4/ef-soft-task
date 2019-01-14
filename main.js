@@ -91,9 +91,8 @@ function previewFile(file) {
     let reader = new FileReader();
     reader.readAsDataURL(file);
     reader.onload = function() {
-        let img = document.createElement('img');
-        img.src = reader.result;
-        document.getElementById('gallery').appendChild(img);
+        let img = createImage(reader.result);
+        gallery.appendChild(img);
     }
 }
 
